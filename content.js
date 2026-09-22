@@ -2,30 +2,30 @@ const CONTENT = {
   work: [
     {
       year: "2026",
-      title: "Three-month Sea-Surface Temperature Outlook",
-      desc: "Operational production and interpretation of seasonal sea-surface temperature outlooks for the seas around Korea.",
-      role: "Role: forecast analysis, verification, explanatory materials, and service operation.",
+      title: "해수면온도 3개월 전망",
+      desc: "우리나라 주변 해역의 계절 규모 해수면온도 전망을 생산·분석하고, 현업 서비스로 제공하는 업무를 담당합니다.",
+      role: "담당: 전망 분석, 검증, 해설자료 작성 및 서비스 운영",
       url: "#"
     },
     {
       year: "2026",
-      title: "Monthly Ocean Weather & Climate Information",
-      desc: "Expansion and improvement of monthly ocean weather and climate information, including additional prediction variables and interpretation.",
-      role: "Role: service improvement, analysis, documentation, and coordination.",
+      title: "월간 해양 기상·기후정보 개선",
+      desc: "월간 해양 기상·기후정보의 예측자료를 확대하고, 이용자가 정보를 보다 쉽게 이해할 수 있도록 분석 및 해설 내용을 개선했습니다.",
+      role: "담당: 서비스 개선, 분석, 문서 작성 및 관련 업무 조정",
       url: "#"
     },
     {
       year: "2026",
-      title: "Marine Heat / High-temperature Climate Analysis",
-      desc: "Analysis of recent ocean-temperature conditions, long-term change, and future climate scenarios around the Korean Peninsula.",
-      role: "Role: quantitative analysis, synthesis, visualization, and public-facing explanation.",
+      title: "고수온·해양기후 분석",
+      desc: "관측자료와 재분석자료, 기후변화 시나리오를 활용해 우리나라 주변 해역의 최근 수온 현황과 장기 변화 특성을 분석했습니다.",
+      role: "담당: 정량 분석, 결과 종합, 시각화 및 대외 설명자료 작성",
       url: "#"
     },
     {
       year: "2026",
-      title: "Workshops & Inter-agency Collaboration",
-      desc: "Technical coordination linking operational services, model development, research organizations, and external partners.",
-      role: "Role: technical agenda development, coordination, and documentation.",
+      title: "워크숍 및 관계기관 협력",
+      desc: "현업 기후서비스, 모델 개발, 연구기관 및 외부 협력기관을 연결하는 기술협의와 워크숍 업무에 참여했습니다.",
+      role: "담당: 기술 의제 검토, 협의·조정 및 관련 문서 작성",
       url: "#"
     }
   ],
@@ -33,28 +33,28 @@ const CONTENT = {
   timeline: [
     {
       year: "2026–",
-      title: "Deputy Director · Korea Meteorological Administration",
-      text: "Ocean climate information, seasonal prediction, verification, climate-service development, and science communication."
+      title: "사무관 · 기상청",
+      text: "해양기후정보, 계절예측, 검증, 기후서비스 개선 및 과학정보 전달 업무를 담당하고 있습니다."
     },
     {
       year: "2025–2026",
       title: "Postdoctoral Research Associate · UNIST",
-      text: "Short postdoctoral appointment before entering public service."
+      text: "공직 입직 전 UNIST에서 박사후연구원으로 근무했습니다."
     },
     {
       year: "2023–2025",
       title: "Postdoctoral Research Associate · NOAA GFDL / Princeton University",
-      text: "Research on drought–heatwave events, land–atmosphere coupling, global-model experiments, and climate diagnostics."
+      text: "가뭄-폭염 복합극한, 지면-대기 상호작용, 전지구모델 실험 및 기후 진단 연구를 수행했습니다."
     },
     {
       year: "2022–2023",
       title: "Postdoctoral Research Associate · UNIST",
-      text: "Numerical modeling and high-impact weather / climate research."
+      text: "수치모델을 활용한 고영향 기상·기후 연구를 수행했습니다."
     },
     {
       year: "2017–2022",
       title: "Ph.D. · UNIST",
-      text: "Thesis: Roles of Land-Atmosphere-Ocean Interactions on Heat Wave Simulation: Impacts of Soil Moisture Initialization and Air-Sea Coupling."
+      text: "폭염 모의에서 지면-대기-해양 상호작용의 역할을 주제로 박사학위를 받았습니다."
     },
     {
       year: "2013–2017",
@@ -111,30 +111,30 @@ const CONTENT = {
   notes: [
     {
       year: "ARCHIVE",
-      title: "Operational ocean-climate work log",
-      desc: "A chronological archive of public products, service launches, verification work, workshops, and official outputs.",
-      role: "Planned: link each entry to the corresponding official KMA source.",
+      title: "해양기후 업무 기록",
+      desc: "서비스 개시, 검증 업무, 주요 개선사항, 워크숍과 공개 산출물을 시간 순서대로 기록합니다.",
+      role: "향후 각 항목을 기상청 공식 공개자료와 연결할 예정입니다.",
       url: "#"
     },
     {
       year: "NOTE",
-      title: "From research to operations",
-      desc: "Notes on how scientific uncertainty changes when information must become an operational service.",
-      role: "Personal reflection.",
+      title: "연구에서 현업으로",
+      desc: "과학적 결과가 실제 현업 서비스가 되는 과정에서 무엇이 달라지는지 기록합니다.",
+      role: "개인 기록",
       url: "#"
     },
     {
       year: "NOTE",
-      title: "Forecast verification as institutional memory",
-      desc: "How repeated verification can become a growing body of operational knowledge instead of a one-off report.",
-      role: "Personal reflection.",
+      title: "예측 검증을 축적하는 법",
+      desc: "매번 사라지는 검증 결과가 아니라, 시간이 지날수록 쌓이는 현업 지식으로 만드는 방법을 고민합니다.",
+      role: "개인 기록",
       url: "#"
     },
     {
       year: "NOTE",
       title: "Career notes",
-      desc: "Reflections on research, public service, expertise, and building a professional identity across both worlds.",
-      role: "Personal reflection.",
+      desc: "연구, 공직, 전문성, 그리고 두 세계 사이에서 전문적인 정체성을 만들어가는 과정에 대한 기록입니다.",
+      role: "개인 기록",
       url: "#"
     }
   ]
