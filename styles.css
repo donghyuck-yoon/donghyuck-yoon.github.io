@@ -205,3 +205,23 @@ a:hover{text-decoration:underline}
   }
   .role-title,.role-sep,.role-org{white-space:nowrap}
 }
+
+.inline-link{
+  color:inherit;
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:3px;
+  text-decoration-color:#7f8b96;
+}
+.inline-link:hover{
+  color:var(--accent);
+  text-decoration-color:var(--accent);
+}
+.interest-box ol{
+  margin:0;
+  padding-left:1.45rem;
+  color:#4c5965;
+}
+.interest-box ol li + li{
+  margin-top:6px;
+}
