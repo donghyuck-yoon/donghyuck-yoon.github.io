@@ -192,3 +192,16 @@ a:hover{text-decoration:underline}
     flex-wrap:wrap;
   }
 }
+
+/* keep organization line on one row on desktop */
+@media(min-width:851px){
+  .intro{grid-template-columns:340px minmax(0,1fr);gap:56px}
+  .role{
+    font-size:11.5px;
+    letter-spacing:-0.04em;
+    gap:5px;
+    white-space:nowrap;
+    flex-wrap:nowrap;
+  }
+  .role-title,.role-sep,.role-org{white-space:nowrap}
+}
