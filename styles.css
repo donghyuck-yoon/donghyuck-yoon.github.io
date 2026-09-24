@@ -366,3 +366,62 @@ a:hover{text-decoration:underline}
   font-size:16px;
   margin-top:2px;
 }
+
+/* v7: compact collapsible Background, matching previous research-history style */
+.about-background{
+  margin-top:28px;
+}
+.about-background summary{
+  cursor:pointer;
+  font-family:"Newsreader",serif;
+  font-size:24px;
+  font-weight:600;
+  color:#35424f;
+}
+.about-background .timeline{
+  margin-top:24px;
+  background:transparent;
+  border:0;
+  border-left:2px solid #dce2e6;
+  border-radius:0;
+  padding:0;
+  margin-left:7px;
+}
+.about-background .timeline-item{
+  padding:0 0 28px 34px;
+}
+.about-background .timeline-item h3{
+  margin:3px 0 0;
+  font-size:18px;
+}
+
+/* Selected publications heading and links on one line */
+.publication-heading-row{
+  display:flex;
+  align-items:baseline;
+  gap:18px;
+  flex-wrap:nowrap;
+  margin-bottom:14px;
+}
+.publication-heading-row h3{
+  margin:0;
+  white-space:nowrap;
+}
+.publication-links{
+  margin:0;
+  font-size:12px;
+  color:var(--muted);
+  white-space:nowrap;
+}
+.publication-links a{
+  font-size:12px;
+}
+@media(max-width:900px){
+  .publication-heading-row{
+    flex-wrap:wrap;
+    gap:6px 14px;
+  }
+  .publication-links{
+    white-space:normal;
+  }
+}
