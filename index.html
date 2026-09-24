@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
   <header class="site-header">
@@ -19,7 +19,7 @@
     <nav aria-label="Primary navigation">
       <a href="#about">About</a>
       <a href="#work">Work at KMA</a>
-      <a href="#research">Research</a>
+      <a href="#research">As a Researcher</a>
       <a href="#notes">Archive</a>
     </nav>
   </header>
@@ -43,7 +43,7 @@
         <div class="prose about-lines">
           <p>
             기상청에서 <a class="inline-link" href="#work">해양기후와 관련된 업무</a>를 담당하고 있습니다.<br>
-            기상청에 오기 전에는 <a class="inline-link" href="#research">한국과 미국에서 연구</a>했습니다.
+            그 전에는 <a class="inline-link" href="#research">한국과 미국에서 연구</a>했습니다.
           </p>
         </div>
         <div class="interest-box">
@@ -87,6 +87,11 @@
           </p>
         </div>
         <div id="pub-list" class="pub-list"></div>
+
+        <div class="peer-review-block">
+          <h3>Verified peer reviews</h3>
+          <div id="peer-review-list" class="peer-review-list"></div>
+        </div>
       </div>
 
 
@@ -97,10 +102,7 @@
         <span>04</span>
         <h2>Archive</h2>
       </div>
-      <p class="section-intro">
-        업무의 주요 이정표, 협의회와 워크숍, 공개 산출물, 그리고 시간이 지나도 남겨두고 싶은 기록을 정리합니다.
-      </p>
-      <div id="note-grid" class="note-grid"></div>
+      <div id="note-grid" class="archive-list"></div>
     </section>
   </main>
 
@@ -112,7 +114,7 @@
     <p>© <span id="year"></span> Donghyuck Yoon · GitHub Pages</p>
   </footer>
 
-  <script src="content.js?v=7"></script>
-  <script src="site.js?v=7"></script>
+  <script src="content.js?v=8"></script>
+  <script src="site.js?v=8"></script>
 </body>
 </html>
