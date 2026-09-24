@@ -73,7 +73,7 @@ const CONTENT = {
   timeline: [
     {
       year: "2026–",
-      title: "Deputy Division Director(기상사무관) · 기상청 기후과학국 해양기상기후과"
+      title: "Deputy Division Director(기상사무관) · KMA"
     },
     {
       year: "2025–2026",
