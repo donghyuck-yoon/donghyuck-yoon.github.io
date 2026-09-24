@@ -225,3 +225,112 @@ a:hover{text-decoration:underline}
 .interest-box ol li + li{
   margin-top:6px;
 }
+
+/* About: explicit two-line intro, one sentence per line on desktop */
+.about-lines{
+  font-size:15px;
+  letter-spacing:-.035em;
+}
+.about-lines p{
+  margin-bottom:22px;
+}
+@media(min-width:851px){
+  .about-lines{
+    white-space:nowrap;
+    font-size:14px;
+  }
+}
+@media(max-width:850px){
+  .about-lines{
+    white-space:normal;
+    font-size:15px;
+  }
+}
+
+/* Work at KMA accordion cards */
+.work-card-accordion{
+  min-height:155px;
+  display:flex;
+  flex-direction:column;
+}
+.work-card-accordion h3{
+  margin:0;
+  font-size:21px;
+}
+.work-details{
+  margin-top:auto;
+  padding-top:24px;
+}
+.work-details summary{
+  list-style:none;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  cursor:pointer;
+  color:var(--accent);
+  font-size:13px;
+  font-weight:700;
+  user-select:none;
+}
+.work-details summary::-webkit-details-marker{display:none}
+.work-details summary::after{
+  content:"＋";
+  font-weight:500;
+  transition:transform .15s ease;
+}
+.work-details[open] summary::after{
+  content:"−";
+}
+.work-list{
+  margin:18px 0 0;
+  padding:16px 0 0;
+  list-style:none;
+  border-top:1px solid var(--soft);
+}
+.work-list-item{
+  display:flex;
+  align-items:flex-start;
+  gap:6px;
+  font-size:13px;
+  line-height:1.55;
+}
+.work-list-item + .work-list-item{
+  margin-top:10px;
+}
+.work-item-link{
+  color:#374552;
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:3px;
+  text-decoration-color:#a6b0b8;
+}
+.work-item-link:hover{
+  color:var(--accent);
+  text-decoration-color:var(--accent);
+}
+.work-item-label{
+  color:#475467;
+}
+.mini-icon-link{
+  flex:0 0 auto;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:20px;
+  height:20px;
+  margin-top:1px;
+  border-radius:5px;
+  font-size:12px;
+  line-height:1;
+  text-decoration:none!important;
+  filter:grayscale(.25);
+}
+.mini-icon-link:hover{
+  background:var(--accent-soft, #eef4fa);
+  transform:translateY(-1px);
+}
+@media(max-width:850px){
+  .work-card-accordion{
+    min-height:140px;
+  }
+}
