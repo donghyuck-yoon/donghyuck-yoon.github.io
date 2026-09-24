@@ -1,32 +1,68 @@
 const CONTENT = {
   work: [
     {
-      year: "2026",
-      title: "해수면온도 3개월 전망",
-      desc: "우리나라 주변 해역의 계절 규모 해수면온도 전망을 생산·분석하고, 현업 서비스로 제공하는 업무를 담당합니다.",
-      role: "담당: 전망 분석, 검증, 해설자료 작성 및 서비스 운영",
-      url: "#"
+      title: "해양기후 전망",
+      items: [
+        {
+          label: "해수면 온도 3개월전망 해설서",
+          url: "https://www.weather.go.kr/w/climate/prediction/month3-guide.do"
+        }
+      ]
     },
     {
-      year: "2026",
-      title: "월간 해양 기상·기후정보 개선",
-      desc: "월간 해양 기상·기후정보의 예측자료를 확대하고, 이용자가 정보를 보다 쉽게 이해할 수 있도록 분석 및 해설 내용을 개선했습니다.",
-      role: "담당: 서비스 개선, 분석, 문서 작성 및 관련 업무 조정",
-      url: "#"
+      title: "해양기후 감시",
+      items: [
+        {
+          label: "2026년 여름철 기후 특성",
+          url: "https://www.kma.go.kr/kma/news/press_01.jsp?bid=press&mode=view&num=1194727&page=1&&field1=subject&text1=%ED%8A%B9%EC%84%B1&from=2026-06-24&to=2026-09-24"
+        },
+        {
+          label: "2026년 7월 기후 특성",
+          url: "https://www.kma.go.kr/kma/news/press_01.jsp?bid=press&mode=view&num=1194707&page=1&&field1=subject&text1=%ED%8A%B9%EC%84%B1&from=2026-06-24&to=2026-09-24"
+        },
+        {
+          label: "2026년 6월 기후 특성",
+          url: "https://www.kma.go.kr/kma/news/press_01.jsp?bid=press&mode=view&num=1194678&page=1&&field1=subject&text1=%ED%8A%B9%EC%84%B1&from=2026-06-24&to=2026-09-24"
+        },
+        {
+          label: "2026년 5월 기후 특성",
+          url: "https://www.kma.go.kr/kma/news/press_01.jsp?bid=press&mode=view&num=1194656&page=1&&field1=subject&text1=%ED%8A%B9%EC%84%B1&from=2025-06-17&to=2026-06-17"
+        },
+        {
+          label: "2026년 4월 기후 특성",
+          url: "https://www.kma.go.kr/kma/news/press_01.jsp?bid=press&mode=view&num=1194643&page=1&&field1=subject&text1=%ED%8A%B9%EC%84%B1&from=2025-06-17&to=2026-06-17"
+        },
+        {
+          label: "2026년 3월 기후 특성",
+          url: "https://www.kma.go.kr/kma/news/press_01.jsp?bid=press&mode=view&num=1194628&page=1&&field1=subject&text1=%ED%8A%B9%EC%84%B1&from=2025-06-17&to=2026-06-17"
+        }
+      ]
     },
     {
-      year: "2026",
-      title: "고수온·해양기후 분석",
-      desc: "관측자료와 재분석자료, 기후변화 시나리오를 활용해 우리나라 주변 해역의 최근 수온 현황과 장기 변화 특성을 분석했습니다.",
-      role: "담당: 정량 분석, 결과 종합, 시각화 및 대외 설명자료 작성",
-      url: "#"
+      title: "해양기후 분석",
+      items: [
+        {
+          label: '(보도자료) "최근 10년 우리 바다 해양열파 평년 대비 3.7배 증가, 미래에는 더 잦고 강해진다"',
+          url: "https://www.kma.go.kr/kma/news/press_01.jsp?bid=press&mode=view&num=1194719&page=3&&from=2026-06-24&to=2026-09-24",
+          interviewUrl: "https://n.news.naver.com/mnews/article/056/0012245224?sid=102"
+        }
+      ]
     },
     {
-      year: "2026",
-      title: "워크숍 및 관계기관 협력",
-      desc: "현업 기후서비스, 모델 개발, 연구기관 및 외부 협력기관을 연결하는 기술협의와 워크숍 업무에 참여했습니다.",
-      role: "담당: 기술 의제 검토, 협의·조정 및 관련 문서 작성",
-      url: "#"
+      title: "해양기후 관련 관계기관 협력",
+      linkMode: "clip",
+      items: [
+        {
+          label: "26.7.22. 해양기후 감시·예측 워크숍 (발표)"
+        },
+        {
+          label: "26.7.3. 통합적인 기후변화 감시·예측·영향정보 기반의 국가 기후위기 대응체계 강화 전략 토론회 (참석)",
+          url: "https://www.kma.go.kr/kma/news/press_01.jsp?bid=press&mode=view&num=1194679&page=6&&from=2026-06-24&to=2026-09-24"
+        },
+        {
+          label: "26.5.11.~5.12. 한국 기상학회 봄 학술대회 (참석)"
+        }
+      ]
     }
   ],
 
