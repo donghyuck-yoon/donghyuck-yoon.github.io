@@ -1,11 +1,43 @@
 const workGrid = document.querySelector("#work-grid");
+
+const iconLink = (url, kind) => {
+  if (!url) return "";
+  const isInterview = kind === "interview";
+  return `<a class="mini-icon-link ${isInterview ? "interview-link" : "clip-link"}"
+    href="${url}" target="_blank" rel="noopener noreferrer"
+    aria-label="${isInterview ? "관련 인터뷰 기사 열기" : "관련 자료 열기"}"
+    title="${isInterview ? "관련 인터뷰 기사" : "관련 자료"}">
+    <span aria-hidden="true">${isInterview ? "🎙" : "📎"}</span>
+  </a>`;
+};
+
+const workItemHTML = (item, linkMode) => {
+  if (linkMode === "clip") {
+    return `
+      <li class="work-list-item">
+        <span class="work-item-label">${item.label}</span>
+        ${iconLink(item.url, "clip")}
+      </li>`;
+  }
+
+  return `
+    <li class="work-list-item">
+      ${item.url
+        ? `<a class="work-item-link" href="${item.url}" target="_blank" rel="noopener noreferrer">${item.label}</a>`
+        : `<span class="work-item-label">${item.label}</span>`}
+      ${iconLink(item.interviewUrl, "interview")}
+    </li>`;
+};
+
 workGrid.innerHTML = CONTENT.work.map(x => `
-  <article class="work-card">
-    <div class="card-meta">${x.year}</div>
+  <article class="work-card work-card-accordion">
     <h3>${x.title}</h3>
-    <p>${x.desc}</p>
-    <p class="card-role">${x.role}</p>
-    ${x.url && x.url !== "#" ? `<a class="card-link" href="${x.url}">Official source →</a>` : `<span class="card-link" style="color:#98a2ad">Official link to be added</span>`}
+    <details class="work-details">
+      <summary>더보기</summary>
+      <ul class="work-list">
+        ${x.items.map(item => workItemHTML(item, x.linkMode)).join("")}
+      </ul>
+    </details>
   </article>
 `).join("");
 
