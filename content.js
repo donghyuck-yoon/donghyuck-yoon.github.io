@@ -142,6 +142,24 @@ const CONTENT = {
     }
   ],
 
+  peerReviews: [
+    { journal: "Agricultural and Forest Meteorology", count: 1 },
+    { journal: "Asia-Pacific Journal of Atmospheric Sciences", count: 1 },
+    { journal: "Atmospheric Research", count: 2 },
+    { journal: "Climate Dynamics", count: 6 },
+    { journal: "Environmental Research Letters", count: 2 },
+    { journal: "International Journal of Climatology", count: 1 },
+    { journal: "Journal of Climate", count: 2 },
+    { journal: "Journal of Geophysical Research: Atmospheres", count: 1 },
+    { journal: "Journal of Hydrometeorology", count: 1 },
+    { journal: "Meteorological Applications", count: 1 },
+    { journal: "Nature Communications", count: 2 },
+    { journal: "Npj Climate and Atmospheric Science", count: 3 },
+    { journal: "Ocean-Land-Atmosphere Research", count: 1 },
+    { journal: "Scientific Reports", count: 1 },
+    { journal: "Weather and Climate Extremes", count: 1 }
+  ],
+
   notes: [
     {
       year: "ARCHIVE",
