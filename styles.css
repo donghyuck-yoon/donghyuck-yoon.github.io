@@ -334,3 +334,35 @@ a:hover{text-decoration:underline}
     min-height:140px;
   }
 }
+
+/* v6: larger utility icons */
+.mini-icon-link{
+  width:26px;
+  height:26px;
+  font-size:16px;
+  border-radius:6px;
+}
+
+/* About background */
+.about-background{
+  margin-top:34px;
+}
+.about-background h3{
+  font-family:"Newsreader",serif;
+  font-size:28px;
+  margin:0 0 18px;
+}
+.about-background .timeline{
+  background:var(--paper);
+  border:1px solid #dee3e7;
+  border-radius:13px;
+  padding:22px 24px 4px;
+  margin-left:0;
+}
+.about-background .timeline-item{
+  padding-bottom:24px;
+}
+.about-background .timeline-item h3{
+  font-size:16px;
+  margin-top:2px;
+}
