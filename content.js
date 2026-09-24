@@ -6,6 +6,10 @@ const CONTENT = {
         {
           label: "해수면 온도 3개월전망 해설서",
           url: "https://www.weather.go.kr/w/climate/prediction/month3-guide.do"
+        },
+        {
+          label: "월간 해양기상기후정보",
+          url: "https://www.climate.go.kr/home/bbs_new/list.php?code=110&bname=oceannews_new"
         }
       ]
     },
@@ -69,33 +73,27 @@ const CONTENT = {
   timeline: [
     {
       year: "2026–",
-      title: "사무관 · 기상청",
-      text: "해양기후정보, 계절예측, 검증, 기후서비스 개선 및 과학정보 전달 업무를 담당하고 있습니다."
+      title: "Deputy Division Director(기상사무관) · 기상청 기후과학국 해양기상기후과"
     },
     {
       year: "2025–2026",
-      title: "Postdoctoral Research Associate · UNIST",
-      text: "공직 입직 전 UNIST에서 박사후연구원으로 근무했습니다."
+      title: "Postdoctoral Research Associate · UNIST"
     },
     {
       year: "2023–2025",
-      title: "Postdoctoral Research Associate · NOAA GFDL / Princeton University",
-      text: "가뭄-폭염 복합극한, 지면-대기 상호작용, 전지구모델 실험 및 기후 진단 연구를 수행했습니다."
+      title: "Postdoctoral Research Associate · NOAA GFDL / Princeton University"
     },
     {
       year: "2022–2023",
-      title: "Postdoctoral Research Associate · UNIST",
-      text: "수치모델을 활용한 고영향 기상·기후 연구를 수행했습니다."
+      title: "Postdoctoral Research Associate · UNIST"
     },
     {
       year: "2017–2022",
-      title: "Ph.D. · UNIST",
-      text: "폭염 모의에서 지면-대기-해양 상호작용의 역할을 주제로 박사학위를 받았습니다."
+      title: "Ph.D. · UNIST"
     },
     {
       year: "2013–2017",
-      title: "B.S. · UNIST",
-      text: "Earth Science and Engineering / Disaster & Risk Management Engineering."
+      title: "B.S. · UNIST"
     }
   ],
 
