@@ -45,7 +45,7 @@ document.querySelector("#timeline").innerHTML = CONTENT.timeline.map(x => `
   <div class="timeline-item">
     <div class="timeline-year">${x.year}</div>
     <h3>${x.title}</h3>
-    <p>${x.text}</p>
+    ${x.text ? `<p>${x.text}</p>` : ""}
   </div>
 `).join("");
 
