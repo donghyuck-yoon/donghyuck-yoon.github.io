@@ -59,12 +59,14 @@ document.querySelector("#pub-list").innerHTML = CONTENT.publications.map(x => `
   </div>
 `).join("");
 
+document.querySelector("#peer-review-list").innerHTML = CONTENT.peerReviews.map(x => `
+  <div class="peer-review-item">${x.journal} <span>(${x.count})</span></div>
+`).join("");
+
 document.querySelector("#note-grid").innerHTML = CONTENT.notes.map(x => `
-  <article class="note-card">
-    <div class="card-meta">${x.year}</div>
-    <h3>${x.title}</h3>
-    <p>${x.desc}</p>
-    <p class="card-role">${x.role}</p>
+  <article class="archive-item">
+    <div class="archive-meta">${x.year}</div>
+    <div class="archive-title">${x.title}</div>
   </article>
 `).join("");
 
