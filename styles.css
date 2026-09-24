@@ -425,3 +425,70 @@ a:hover{text-decoration:underline}
     white-space:normal;
   }
 }
+
+/* v8: About intro slightly larger while preserving one-line sentences on desktop */
+@media(min-width:851px){
+  .about-lines{
+    font-size:16px;
+    letter-spacing:-.045em;
+  }
+}
+
+/* Verified peer reviews */
+.peer-review-block{
+  margin-top:34px;
+}
+.peer-review-block h3{
+  margin:0 0 14px;
+}
+.peer-review-list{
+  background:var(--paper);
+  border:1px solid #dee3e7;
+  border-radius:13px;
+  overflow:hidden;
+}
+.peer-review-item{
+  padding:11px 18px;
+  border-bottom:1px solid #e7ebee;
+  font-size:14px;
+  color:#374552;
+}
+.peer-review-item:last-child{
+  border-bottom:0;
+}
+.peer-review-item span{
+  color:var(--muted);
+  font-size:13px;
+}
+
+/* Archive as a simple chronological/blog-style list */
+.archive-list{
+  border-top:1px solid #dfe3e7;
+}
+.archive-item{
+  display:grid;
+  grid-template-columns:92px minmax(0,1fr);
+  gap:18px;
+  padding:18px 4px;
+  border-bottom:1px solid #dfe3e7;
+}
+.archive-meta{
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.08em;
+  color:var(--warm);
+}
+.archive-title{
+  font-size:16px;
+  font-weight:600;
+  color:#2f3b46;
+}
+.archive-item:hover .archive-title{
+  color:var(--accent);
+}
+@media(max-width:520px){
+  .archive-item{
+    grid-template-columns:1fr;
+    gap:4px;
+  }
+}
