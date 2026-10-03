@@ -17,6 +17,10 @@ const CONTENT = {
       title: "해양기후 감시",
       items: [
         {
+          label: "2026년 9월 기후 특성",
+          url: "https://www.kma.go.kr/kma/news/press_01.jsp?mode=view&num=1194749"
+        },
+        {
           label: "2026년 여름철 기후 특성",
           url: "https://www.kma.go.kr/kma/news/press_01.jsp?bid=press&mode=view&num=1194727&page=1&&field1=subject&text1=%ED%8A%B9%EC%84%B1&from=2026-06-24&to=2026-09-24"
         },
